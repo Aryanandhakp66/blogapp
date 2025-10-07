@@ -1,0 +1,37 @@
+{{ define "main" }}
+<section style="max-width: 800px; margin: 0 auto; padding: 2rem;">
+
+  {{ range .Site.RegularPages.ByDate.Reverse }}
+    <article style="border: 1px solid #444; border-radius: 10px; padding: 1rem 1.5rem; margin-bottom: 1.5rem; 
+                    background-color: var(--background); box-shadow: 0 2px 5px rgba(0,0,0,0.2); transition: transform 0.2s;">
+      
+      <!-- Post title -->
+      <h2 class="home-title" style="margin-bottom: 0.3rem;">
+        <a href="{{ .RelPermalink }}" style="text-decoration: none; color: hwb(48 0% 0%);">
+          {{ .Title }}
+        </a>
+      </h2>
+
+      <!-- Date and time -->
+      <p style="color: #888; font-size: 0.9rem; margin-bottom: 0.8rem;">
+        {{ .Date.Format "Jan 2, 2006 15:04" }}
+      </p>
+
+      <!-- Tagline / summary -->
+      <p style="color: #ccc; line-height: 1.5;">
+        {{ .Summary }}
+      </p>
+
+    </article>
+  {{ end }}
+
+</section>
+
+<script>
+  // Add hover effect for cards
+  document.querySelectorAll('article').forEach(function(card){
+    card.addEventListener('mouseenter', function(){ card.style.transform = 'scale(1.02)'; });
+    card.addEventListener('mouseleave', function(){ card.style.transform = 'scale(1)'; });
+  });
+</script>
+{{ end }}

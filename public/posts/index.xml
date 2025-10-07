@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Hri7hik H4cks</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Hri7hik H4cks</description>
+    <generator>Hugo -- 0.150.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 06 Oct 2025 18:00:00 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sample Project</title>
+      <link>http://localhost:1313/sample-project/</link>
+      <pubDate>Mon, 06 Oct 2025 18:00:00 +0530</pubDate>
+      <guid>http://localhost:1313/sample-project/</guid>
+      <description>&lt;p&gt;It demonstrates a simple JavaScript example to manipulate the DOM.&lt;br&gt;
+This is the tagline or summary of the project.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title># Develop Your Brain 🧠</title>
+      <link>http://localhost:1313/%23-develop-your-brain/</link>
+      <pubDate>Thu, 18 Sep 2025 20:59:39 +0530</pubDate>
+      <guid>http://localhost:1313/%23-develop-your-brain/</guid>
+      <description>&lt;p&gt;Your brain is like a muscle — the more you exercise it, the stronger it becomes. Developing your brain can improve memory, focus, problem-solving skills, and creativity.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>hi hello</title>
+      <link>http://localhost:1313/hi-hello/</link>
+      <pubDate>Thu, 18 Sep 2025 20:59:39 +0530</pubDate>
+      <guid>http://localhost:1313/hi-hello/</guid>
+      <description>&lt;p&gt;hi welcome to my channel nice to meet you&amp;hellip;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tutorial</title>
+      <link>http://localhost:1313/tutorial/</link>
+      <pubDate>Thu, 18 Sep 2025 20:33:33 +0530</pubDate>
+      <guid>http://localhost:1313/tutorial/</guid>
+      <description>&lt;p&gt;Welcome to my first tutorial post! 🚀&lt;/p&gt;
+&lt;p&gt;This is where I’ll explain something step by step.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Awesome Project</title>
+      <link>http://localhost:1313/awesome-project/</link>
+      <pubDate>Thu, 18 Sep 2025 19:30:00 +0530</pubDate>
+      <guid>http://localhost:1313/awesome-project/</guid>
+      <description>&lt;h1 id=&#34;awesome-project-&#34;&gt;Awesome Project 🚀&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Awesome Project&lt;/strong&gt; is a sample project demonstrating basic programming concepts and code organization.&lt;/p&gt;
+&lt;p&gt;This is the tagline or summary of the post.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cyber</title>
+      <link>http://localhost:1313/cyber/</link>
+      <pubDate>Thu, 18 Sep 2025 19:25:57 +0530</pubDate>
+      <guid>http://localhost:1313/cyber/</guid>
+      <description>&lt;p&gt;Cybersecurity is the practice of protecting systems, networks, and programs from digital attacks.&lt;br&gt;
+These cyberattacks are usually aimed at accessing, changing, or destroying sensitive information; extorting money from users; or interrupting normal business processes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Benefits of Meditation</title>
+      <link>http://localhost:1313/benefits-of-meditation/</link>
+      <pubDate>Thu, 18 Sep 2025 18:00:00 +0530</pubDate>
+      <guid>http://localhost:1313/benefits-of-meditation/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;Meditation&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/meditation.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Meditation is a practice that helps in calming the mind, reducing stress, and improving focus. In this blog, we will explore some key benefits of meditation and how you can start incorporating it into your daily routine.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hello World!</title>
+      <link>http://localhost:1313/hello-world/</link>
+      <pubDate>Thu, 18 Sep 2025 16:45:26 +0530</pubDate>
+      <guid>http://localhost:1313/hello-world/</guid>
+      <description>&lt;h1 id=&#34;hello-world&#34;&gt;Hello World!&lt;/h1&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;console&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;log&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Hi Hrithik!&amp;#39;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>

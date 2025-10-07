@@ -1,0 +1,33 @@
+baseURL = "https://example.org/"
+languageCode = "en-us"
+title = "Hri7hik H4cks"
+theme = "hugo-PaperMod"
+
+[params]
+  defaultTheme = "dark"          # load site in dark mode
+  disableThemeToggle = false     # show toggle button
+  highlightStyle = "monokai"     # code highlight style
+  highlightNoClasses = false
+  highlightLineNumbers = true
+  enableCopyButton = true        # adds copy button to code blocks
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[permalinks]
+  posts = "/:title/"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About Me"
+    url = "/about/"
+    weight = 2
+
