@@ -1,12 +1,13 @@
 +++
 title = "About Me"
+
 +++
 
 
 <!-- Centered About Me Page Title with space below -->
 <h1 style="text-align: center; margin-bottom: 40px;"></h1>
 
-<h1 style="margin-bottom: 30px;">🏄‍♂️ HriTh!K M4nOj</h1>
+<h1 style="margin-bottom: 30px;">Hello! 🏄‍♂️</h1>
 
 
 <!-- About Me Section with Image on the Right -->
@@ -18,7 +19,9 @@ title = "About Me"
      alt="Profile Image">
 
   <!-- Intro Text -->
-  <div style="text-align: justify;">
+  <div style="text-align: justify; max-width: 580px; margin-right: -50px;">
+  <p style="margin-bottom: 15px;">My name is Hrithik Manoj, also known as Hri7hik H4cks.</p>
+
    Curiosity sparked my journey into cybersecurity. What started as a fascination with how systems work evolved into a passion for finding vulnerabilities and strengthening defenses.
 
 
