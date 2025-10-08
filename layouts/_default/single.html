@@ -1,14 +1,75 @@
 {{ define "main" }}
 <main style="max-width: 800px; margin: 0 auto; padding: 2rem;">
 
-  <article>
-    <h1>{{ .Title }}</h1>
-    <p style="color: #888; font-size: 0.9rem;">{{ .Date.Format "Jan 2, 2006 15:04" }}</p>
+  <article class="article-card">
+    <h1 style="text-align:center; margin-bottom: 1rem; color: #cacb87;">{{ .Title }}</h1>
+    <p class="article-meta" style="text-align:center;">{{ .Date.Format "Jan 2, 2006 15:04" }}</p>
 
-    <div>
+    <div style="color: #cacb87; line-height: 1.7;">
       {{ .Content }}
     </div>
   </article>
 
 </main>
+
+<!-- Copy Button Script -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll("pre > code").forEach((codeBlock) => {
+    const button = document.createElement("button");
+    button.innerText = "Copy";
+    button.className = "copy-button";
+    codeBlock.parentNode.style.position = "relative";
+    codeBlock.parentNode.appendChild(button);
+
+    button.addEventListener("click", () => {
+      navigator.clipboard.writeText(codeBlock.innerText);
+      button.innerText = "Copied!";
+      setTimeout(() => (button.innerText = "Copy"), 2000);
+    });
+  });
+});
+</script>
+
+<!-- Styling -->
+<style>
+body {
+  background-color: #1a1a1a;
+  color: #cfcfcf;
+  font-family: 'Inter', 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.6;
+}
+
+.article-card {
+  background-color: #242424;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.copy-button {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background-color: #333;
+  color: #cacb87;
+  border: 1px solid #cacb87;
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: all 0.3s ease;
+}
+
+.copy-button:hover {
+  opacity: 1;
+  background-color: #cacb87;
+  color: #1a1a1a;
+}
+</style>
+
 {{ end }}
+
+

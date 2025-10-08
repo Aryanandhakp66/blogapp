@@ -17,18 +17,11 @@
 This is the tagline or summary of the project.&lt;/p&gt;</description>
     </item>
     <item>
-      <title># Develop Your Brain 🧠</title>
-      <link>http://localhost:1313/%23-develop-your-brain/</link>
+      <title>Develop Your Brain 🧠</title>
+      <link>http://localhost:1313/develop-your-brain/</link>
       <pubDate>Thu, 18 Sep 2025 20:59:39 +0530</pubDate>
-      <guid>http://localhost:1313/%23-develop-your-brain/</guid>
+      <guid>http://localhost:1313/develop-your-brain/</guid>
       <description>&lt;p&gt;Your brain is like a muscle — the more you exercise it, the stronger it becomes. Developing your brain can improve memory, focus, problem-solving skills, and creativity.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>hi hello</title>
-      <link>http://localhost:1313/hi-hello/</link>
-      <pubDate>Thu, 18 Sep 2025 20:59:39 +0530</pubDate>
-      <guid>http://localhost:1313/hi-hello/</guid>
-      <description>&lt;p&gt;hi welcome to my channel nice to meet you&amp;hellip;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tutorial</title>
@@ -39,12 +32,11 @@ This is the tagline or summary of the project.&lt;/p&gt;</description>
 &lt;p&gt;This is where I’ll explain something step by step.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Awesome Project</title>
+      <title>Awesome Project 🚀</title>
       <link>http://localhost:1313/awesome-project/</link>
       <pubDate>Thu, 18 Sep 2025 19:30:00 +0530</pubDate>
       <guid>http://localhost:1313/awesome-project/</guid>
-      <description>&lt;h1 id=&#34;awesome-project-&#34;&gt;Awesome Project 🚀&lt;/h1&gt;
-&lt;p&gt;&lt;strong&gt;Awesome Project&lt;/strong&gt; is a sample project demonstrating basic programming concepts and code organization.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;strong&gt;Awesome Project&lt;/strong&gt; is a sample project demonstrating basic programming concepts and code organization.&lt;/p&gt;
 &lt;p&gt;This is the tagline or summary of the post.&lt;/p&gt;</description>
     </item>
     <item>

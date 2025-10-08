@@ -11,6 +11,8 @@ theme = "hugo-PaperMod"
   highlightLineNumbers = true
   enableCopyButton = true        # adds copy button to code blocks
 
+  
+
 [taxonomies]
   category = "categories"
   tag = "tags"
@@ -31,3 +33,7 @@ theme = "hugo-PaperMod"
     url = "/about/"
     weight = 2
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

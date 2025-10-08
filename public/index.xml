@@ -6,30 +6,8 @@
     <description>Recent content on Hri7hik H4cks</description>
     <generator>Hugo -- 0.150.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Oct 2025 18:30:00 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 06 Oct 2025 18:00:00 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>About Me</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Mon, 06 Oct 2025 18:30:00 +0530</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description>&lt;h1 id=&#34;about-me&#34;&gt;About Me&lt;/h1&gt;
-&lt;p&gt;Hello! I&amp;rsquo;m &lt;strong&gt;Arya Nandha&lt;/strong&gt;, an engineering student and developer passionate about coding, problem solving, and creating web applications.&lt;/p&gt;
-&lt;p&gt;I enjoy working on &lt;strong&gt;Python, Rust, and web development projects&lt;/strong&gt;, as well as exploring &lt;strong&gt;machine learning and blockchain technologies&lt;/strong&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;hobbies--interests&#34;&gt;Hobbies &amp;amp; Interests&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Drawing and painting&lt;/li&gt;
-&lt;li&gt;Gaming (Geometry Dash Lite)&lt;/li&gt;
-&lt;li&gt;Learning new programming languages and frameworks&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;contact-me&#34;&gt;Contact Me&lt;/h2&gt;
-&lt;p&gt;You can reach me at:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Email:&lt;/strong&gt; &lt;a href=&#34;mailto:hrithikmanoj000@gmail.com&#34;&gt;hrithikmanoj000@gmail.com&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;GitHub:&lt;/strong&gt; &lt;a href=&#34;https://github.com/HriThik-MaNoj&#34;&gt;https://github.com/HriThik-MaNoj&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;LinkedIn:&lt;/strong&gt; &lt;a href=&#34;https://www.linkedin.com/in/hrithik-manoj-850660204/&#34;&gt;https://linkedin.com/in/hrithik-manoj&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
     <item>
       <title>Sample Project</title>
       <link>http://localhost:1313/sample-project/</link>
@@ -39,18 +17,11 @@
 This is the tagline or summary of the project.&lt;/p&gt;</description>
     </item>
     <item>
-      <title># Develop Your Brain 🧠</title>
-      <link>http://localhost:1313/%23-develop-your-brain/</link>
+      <title>Develop Your Brain 🧠</title>
+      <link>http://localhost:1313/develop-your-brain/</link>
       <pubDate>Thu, 18 Sep 2025 20:59:39 +0530</pubDate>
-      <guid>http://localhost:1313/%23-develop-your-brain/</guid>
+      <guid>http://localhost:1313/develop-your-brain/</guid>
       <description>&lt;p&gt;Your brain is like a muscle — the more you exercise it, the stronger it becomes. Developing your brain can improve memory, focus, problem-solving skills, and creativity.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>hi hello</title>
-      <link>http://localhost:1313/hi-hello/</link>
-      <pubDate>Thu, 18 Sep 2025 20:59:39 +0530</pubDate>
-      <guid>http://localhost:1313/hi-hello/</guid>
-      <description>&lt;p&gt;hi welcome to my channel nice to meet you&amp;hellip;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tutorial</title>
@@ -61,12 +32,11 @@ This is the tagline or summary of the project.&lt;/p&gt;</description>
 &lt;p&gt;This is where I’ll explain something step by step.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Awesome Project</title>
+      <title>Awesome Project 🚀</title>
       <link>http://localhost:1313/awesome-project/</link>
       <pubDate>Thu, 18 Sep 2025 19:30:00 +0530</pubDate>
       <guid>http://localhost:1313/awesome-project/</guid>
-      <description>&lt;h1 id=&#34;awesome-project-&#34;&gt;Awesome Project 🚀&lt;/h1&gt;
-&lt;p&gt;&lt;strong&gt;Awesome Project&lt;/strong&gt; is a sample project demonstrating basic programming concepts and code organization.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;strong&gt;Awesome Project&lt;/strong&gt; is a sample project demonstrating basic programming concepts and code organization.&lt;/p&gt;
 &lt;p&gt;This is the tagline or summary of the post.&lt;/p&gt;</description>
     </item>
     <item>
@@ -93,6 +63,25 @@ These cyberattacks are usually aimed at accessing, changing, or destroying sensi
       <description>&lt;h1 id=&#34;hello-world&#34;&gt;Hello World!&lt;/h1&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;console&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;log&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Hi Hrithik!&amp;#39;&lt;/span&gt;);
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;!-- Centered About Me Page Title with space below --&gt;
+&lt;h1 style=&#34;text-align: center; margin-bottom: 40px;&#34;&gt;&lt;/h1&gt;
+&lt;h1 style=&#34;margin-bottom: 30px;&#34;&gt;🏄‍♂️ HriTh!K M4nOj&lt;/h1&gt;
+&lt;!-- About Me Section with Image on the Right --&gt;
+&lt;div style=&#34;position: relative; max-width: 900px; font-family: &#39;Segoe UI&#39;, Tahoma, Geneva, Verdana, sans-serif; line-height: 1.8; padding-right: 200px;&#34;&gt;
+  &lt;!-- Profile Image Top-Right --&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/hrithik.jpg&#34; 
+style=&#34;position: absolute; top: -225px; right: -180px; width: 280px; height: 280px; border-radius: 50%; object-fit: cover; object-position: 100% 30%;&#34;
+alt=&#34;Profile Image&#34;&gt;&lt;/p&gt;
+  &lt;!-- Intro Text --&gt;
+  &lt;div style=&#34;text-align: justify;&#34;&gt;
+   Curiosity sparked my journey into cybersecurity. What started as a fascination with how systems work evolved into a passion for finding vulnerabilities and strengthening defenses.
+&lt;p&gt;I love diving into CTFs, hunting bugs, and exploring the world of ethical hacking. I’m on my way to becoming a penetration tester, always up for solving tricky challenges, picking up new skills, and helping keep the digital world safe.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

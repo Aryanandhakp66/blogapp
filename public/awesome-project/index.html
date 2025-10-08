@@ -5,10 +5,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>Awesome Project | Hri7hik H4cks</title>
+<title>Awesome Project 🚀 | Hri7hik H4cks</title>
 <meta name="keywords" content="">
-<meta name="description" content="Awesome Project 🚀
-Awesome Project is a sample project demonstrating basic programming concepts and code organization.
+<meta name="description" content="Awesome Project is a sample project demonstrating basic programming concepts and code organization.
 This is the tagline or summary of the post.">
 <meta name="author" content="">
 <link rel="canonical" href="http://localhost:1313/awesome-project/">
@@ -85,13 +84,12 @@ This is the tagline or summary of the post.">
 <main class="main">
 <main style="max-width: 800px; margin: 0 auto; padding: 2rem;">
 
-  <article>
-    <h1>Awesome Project</h1>
-    <p style="color: #888; font-size: 0.9rem;">Sep 18, 2025 19:30</p>
+  <article class="article-card">
+    <h1 style="text-align:center; margin-bottom: 1rem; color: #cacb87;">Awesome Project 🚀</h1>
+    <p class="article-meta" style="text-align:center;">Sep 18, 2025 19:30</p>
 
-    <div>
-      <h1 id="awesome-project-">Awesome Project 🚀</h1>
-<p><strong>Awesome Project</strong> is a sample project demonstrating basic programming concepts and code organization.</p>
+    <div style="color: #cacb87; line-height: 1.7;">
+      <p><strong>Awesome Project</strong> is a sample project demonstrating basic programming concepts and code organization.</p>
 <p>This is the tagline or summary of the post.</p>
 <p>Here comes the <strong>full content</strong> that will only appear on the individual post page.</p>
 <h2 id="python-example">Python Example</h2>
@@ -106,6 +104,65 @@ This is the tagline or summary of the post.">
   </article>
 
 </main>
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll("pre > code").forEach((codeBlock) => {
+    const button = document.createElement("button");
+    button.innerText = "Copy";
+    button.className = "copy-button";
+    codeBlock.parentNode.style.position = "relative";
+    codeBlock.parentNode.appendChild(button);
+
+    button.addEventListener("click", () => {
+      navigator.clipboard.writeText(codeBlock.innerText);
+      button.innerText = "Copied!";
+      setTimeout(() => (button.innerText = "Copy"), 2000);
+    });
+  });
+});
+</script>
+
+
+<style>
+body {
+  background-color: #1a1a1a;
+  color: #cfcfcf;
+  font-family: 'Inter', 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.6;
+}
+
+.article-card {
+  background-color: #242424;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.copy-button {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background-color: #333;
+  color: #cacb87;
+  border: 1px solid #cacb87;
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: all 0.3s ease;
+}
+
+.copy-button:hover {
+  opacity: 1;
+  background-color: #cacb87;
+  color: #1a1a1a;
+}
+</style>
+
 
     </main>
     

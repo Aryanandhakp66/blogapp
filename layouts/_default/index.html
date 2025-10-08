@@ -4,30 +4,60 @@
   {{ range .Site.RegularPages.ByDate.Reverse }}
     {{ if eq .Section "posts" }} <!-- Only show items in 'posts' folder -->
 
-    <article style="border: 1px solid #444; border-radius: 10px; padding: 1rem 1.5rem; margin-bottom: 1.5rem; 
-                    background-color: var(--background); box-shadow: 0 2px 5px rgba(0,0,0,0.2); transition: transform 0.2s;">
-
-      <!-- Post title -->
-      <h2 style="margin-bottom: 0.3rem;">
-        <a href="{{ .RelPermalink }}" style="text-decoration: none; color: #e9eeec;">
-          {{ .Title }}
-        </a>
-      </h2>
-
-      <!-- Date and time -->
-      <p style="color: #888; font-size: 0.9rem; margin-bottom: 0.8rem;">
-        {{ .Date.Format "Jan 2, 2006 15:04" }}
-      </p>
-
-      <!-- Tagline / summary -->
-      <p style="color: #ccc; line-height: 1.5;">
-        {{ .Summary }}
-      </p>
-
+    <article class="article-card">
+      <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+      <p class="article-meta">{{ .Date.Format "Jan 2, 2006 15:04" }}</p>
+      <p class="article-summary">{{ .Summary }}</p>
     </article>
 
     {{ end }}
   {{ end }}
 
 </section>
+
+<style>
+body {
+  background-color: #1a1a1a;
+  color: #cfcfcf;
+  font-family: 'Inter', 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.article-card {
+  background-color: #242424;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.article-card:hover {
+  transform: translateY(-5px);
+  background-color: #2a2a2a;
+}
+
+.article-card h2 a {
+  color: #cacb87;
+  text-decoration: none;
+}
+
+.article-card h2 a:hover {
+  color: #cacb87;
+}
+
+.article-meta {
+  color: #999;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.article-summary {
+  color: #ccc;
+  line-height: 1.6;
+}
+</style>
+
 {{ end }}

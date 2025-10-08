@@ -1,6 +1,6 @@
 +++
 date = '2025-09-18T20:59:39+05:30'
-title = '# Develop Your Brain 🧠'
+title = 'Develop Your Brain 🧠'
 +++
 
 

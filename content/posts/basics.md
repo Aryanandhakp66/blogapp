@@ -1,9 +1,9 @@
 +++
-title = "Awesome Project"
+title = "Awesome Project 🚀"
 date = "2025-09-18T19:30:00+05:30"
 +++
 
-# Awesome Project 🚀
+ 
 
 **Awesome Project** is a sample project demonstrating basic programming concepts and code organization.  
 

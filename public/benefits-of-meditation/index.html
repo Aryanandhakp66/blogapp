@@ -84,11 +84,11 @@ Meditation is a practice that helps in calming the mind, reducing stress, and im
 <main class="main">
 <main style="max-width: 800px; margin: 0 auto; padding: 2rem;">
 
-  <article>
-    <h1>Benefits of Meditation</h1>
-    <p style="color: #888; font-size: 0.9rem;">Sep 18, 2025 18:00</p>
+  <article class="article-card">
+    <h1 style="text-align:center; margin-bottom: 1rem; color: #cacb87;">Benefits of Meditation</h1>
+    <p class="article-meta" style="text-align:center;">Sep 18, 2025 18:00</p>
 
-    <div>
+    <div style="color: #cacb87; line-height: 1.7;">
       <p><img alt="Meditation" loading="lazy" src="/meditation.jpg"></p>
 <p>Meditation is a practice that helps in calming the mind, reducing stress, and improving focus. In this blog, we will explore some key benefits of meditation and how you can start incorporating it into your daily routine.</p>
 <h2 id="key-benefits">Key Benefits:</h2>
@@ -98,7 +98,8 @@ Meditation is a practice that helps in calming the mind, reducing stress, and im
 <li><strong>Enhances Emotional Health</strong> – Helps reduce negative emotions and improves mood.</li>
 <li><strong>Better Sleep</strong> – Meditation can help you fall asleep faster and enjoy deeper sleep.</li>
 </ol>
-<!-- raw HTML omitted -->
+<details>
+<summary>Click here for a simple meditation exercise</summary>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>1. Sit comfortably in a quiet place.
 </span></span><span style="display:flex;"><span>2. Close your eyes and take deep breaths.
 </span></span><span style="display:flex;"><span>3. Focus on your breathing for 5–10 minutes.
@@ -108,6 +109,65 @@ Meditation is a practice that helps in calming the mind, reducing stress, and im
   </article>
 
 </main>
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll("pre > code").forEach((codeBlock) => {
+    const button = document.createElement("button");
+    button.innerText = "Copy";
+    button.className = "copy-button";
+    codeBlock.parentNode.style.position = "relative";
+    codeBlock.parentNode.appendChild(button);
+
+    button.addEventListener("click", () => {
+      navigator.clipboard.writeText(codeBlock.innerText);
+      button.innerText = "Copied!";
+      setTimeout(() => (button.innerText = "Copy"), 2000);
+    });
+  });
+});
+</script>
+
+
+<style>
+body {
+  background-color: #1a1a1a;
+  color: #cfcfcf;
+  font-family: 'Inter', 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.6;
+}
+
+.article-card {
+  background-color: #242424;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.copy-button {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background-color: #333;
+  color: #cacb87;
+  border: 1px solid #cacb87;
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: all 0.3s ease;
+}
+
+.copy-button:hover {
+  opacity: 1;
+  background-color: #cacb87;
+  color: #1a1a1a;
+}
+</style>
+
 
     </main>
     
